@@ -26,10 +26,16 @@ export class Card {
   ): string {
     const trophyList = new TrophyList(userInfo);
 
-    trophyList.filterByHideen();
+    trophyList.filterByHidden();
 
     if (this.titles.length != 0) {
-      trophyList.filterByTitles(this.titles);
+      const includeTitles = this.titles.filter((title) =>
+        !title.startsWith("-")
+      );
+      if (includeTitles.length > 0) {
+        trophyList.filterByTitles(includeTitles);
+      }
+      trophyList.filterByExclusionTitles(this.titles);
     }
 
     if (this.ranks.length != 0) {
@@ -66,7 +72,7 @@ export class Card {
     return row;
   }
   private getHeight(row: number) {
-    // Calculate the height of card from turns
+    // Calculate the height of the card from turns
     return this.panelSize * row + this.marginHeight * (row - 1);
   }
 

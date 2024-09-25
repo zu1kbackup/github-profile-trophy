@@ -1,47 +1,37 @@
-<p align="center">
-  <img width="140" src="https://user-images.githubusercontent.com/6661165/91657958-61b4fd00-eb00-11ea-9def-dc7ef5367e34.png" />  
+<div align="center">
+  <img width="140" src="https://user-images.githubusercontent.com/6661165/91657958-61b4fd00-eb00-11ea-9def-dc7ef5367e34.png"  alt="GitHub Profile Trophy"/>
   <h2 align="center">GitHub Profile Trophy</h2>
-  <p align="center">🏆 Add dynamically generated GitHub Stat Trophies on your readme</p>
-</p>
-<p align="center">
-  <a href="https://github.com/ryo-ma/github-profile-trophy/issues">
-    <img src="https://img.shields.io/github/issues/ryo-ma/github-profile-trophy"/> 
-  </a>
-  <a href="https://github.com/ryo-ma/github-profile-trophy/network/members">
-    <img src="https://img.shields.io/github/forks/ryo-ma/github-profile-trophy"/> 
-  </a>  
-  <a href="https://github.com/ryo-ma/github-profile-trophy/stargazers">
-    <img src="https://img.shields.io/github/stars/ryo-ma/github-profile-trophy"/> 
-  </a>
-    <a href="https://github.com/ryo-ma/github-profile-trophy/LICENSE">
-    <img src="https://img.shields.io/github/license/ryo-ma/github-profile-trophy"/> 
-  </a>
-</p>
-<p align="center">
-  </a>
-    <a href="https://twitter.com/intent/tweet?text=Add%20dynamically%20generated%20GitHub%20Trophy%20on%20your%20readme%0D%0A&url=https%3A%2F%2Fgithub.com%2Fryo-ma%2Fgithub-profile-trophy">
-    <img src="https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fgithub.com%2Fryo-ma%2Fgithub-profile-trophy"/> 
-  </a>
-</p>
+  <p align="center">🏆 Add dynamically generated GitHub Stat Trophies on your README</p>
+</div>
+<div align="center">
+
+[![stargazers](https://img.shields.io/github/stars/ryo-ma/github-profile-trophy)](https://github.com/ryo-ma/github-profile-trophy/stargazers)
+[![forks](https://img.shields.io/github/forks/ryo-ma/github-profile-trophy)](https://github.com/ryo-ma/github-profile-trophy/network/members)
+[![issues](https://img.shields.io/github/issues/ryo-ma/github-profile-trophy)](https://github.com/ryo-ma/github-profile-trophy/issues)
+[![license](https://img.shields.io/github/license/ryo-ma/github-profile-trophy)](https://github.com/ryo-ma/github-profile-trophy/blob/master/LICENSE)
+[![share](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fgithub.com%2Fryo-ma%2Fgithub-profile-trophy)](https://twitter.com/intent/tweet?text=Add%20dynamically%20generated%20GitHub%20Trophy%20on%20your%20readme%0D%0A&url=https%3A%2F%2Fgithub.com%2Fryo-ma%2Fgithub-profile-trophy)
+
+</div>
 <p align="center">
   You can use this service for free. I'm looking for sponsors to help us keep up with this service❤️
 </p>
-<p align="center">
+<div align="center">
   <a href="https://github.com/sponsors/ryo-ma">
-    <img src="https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=ff69b4"/> 
+    <img src="https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=ff69b4" alt="Sponsor"/>
   </a>
-</p>
+</div>
 
 # Quick Start
 
-Add the following code to your readme. When pasting the code into your profile's readme, change the `?username=` value to your GitHub's username.
+Add the following code to your readme. When pasting the code into your profile's
+readme, change the `?username=` value to your GitHub's username.
 
 ```
 [![trophy](https://github-profile-trophy.vercel.app/?username=ryo-ma)](https://github.com/ryo-ma/github-profile-trophy)
 ```
 
 <p align="center">
-  <img alig src="https://github-profile-trophy.vercel.app/?username=ryo-ma&column=7&rank=SSS,SS,S,AAA,AA,A,B,C" />
+  <img src="https://github-profile-trophy.vercel.app/?username=ryo-ma&column=8&rank=SSS,SS,S,AAA,AA,A,B,C" />
 </p>
 
 ## Use theme
@@ -51,6 +41,7 @@ Add optional parameter of the theme.
 ```
 [![trophy](https://github-profile-trophy.vercel.app/?username=ryo-ma&theme=onedark)](https://github.com/ryo-ma/github-profile-trophy)
 ```
+
 <p align="center">
   <img width="660" src="https://user-images.githubusercontent.com/6661165/92327052-d99b9e00-f091-11ea-9a24-c7ec86982370.png">
 </p>
@@ -61,22 +52,26 @@ Add optional parameter of the theme.
 
 Ranks are `SSS` `SS` `S` `AAA` `AA` `A` `B` `C` `UNKNOWN` `SECRET`.
 
-|  Rank  |  Description  |
-| ---- | ---- |
-|  SSS, SS, S  | You are at a hard to reach rank. You can brag.  |
-|  AAA, AA, A  | You will reach this rank if you do your best. Let's aim here first.  |
-|  B, C  | You are currently making good progress. Let's aim a bit higher.  |
-| UNKNOWN | You have not taken action yet. Let's act first. |
-| SECRET | This rank is very rare. The trophy will not be displayed until certain conditions are met. |
+| Rank       | Description                                                                                |
+| ---------- | ------------------------------------------------------------------------------------------ |
+| SSS, SS, S | You are at a hard to reach rank. You can brag.                                             |
+| AAA, AA, A | You will reach this rank if you do your best. Let's aim here first.                        |
+| B, C       | You are currently making good progress. Let's aim a bit higher.                            |
+| UNKNOWN    | You have not taken action yet. Let's act first.                                            |
+| SECRET     | This rank is very rare. The trophy will not be displayed until certain conditions are met. |
+
+**NOTE: The `UNKNOWN` rank is denoted by `?`**
 
 ## Secret Rank
-The acquisition condition is secret, but you can know the condition by reading this code.
+
+The acquisition condition is secret, but you can see this.
 
 <p align="center">
-  <img width="110" src="https://user-images.githubusercontent.com/6661165/91643641-28cd4780-ea70-11ea-94a9-a51885252700.png" />
+  <img width="110" src="https://github.com/user-attachments/assets/40461f38-a317-431c-93d2-a56c2e803cf3" />
 </p>
 
-There are only a few secret trophies. Therefore, if you come up with interesting conditions, I will consider adding a trophy. I am waiting for contributions.
+There are only a few secret trophies. Therefore, if you come up with interesting
+conditions, I will consider adding a trophy. I am waiting for contributions.
 
 # About Display details
 
@@ -85,28 +80,26 @@ There are only a few secret trophies. Therefore, if you come up with interesting
 </p>
 
 1. Title name of aggregation target.
-2. Current Rank.
+2. Current rank.
 3. Title according to rank.
 4. Target aggregation result.
-5. Next Rank Bar. The road from the current rank to the next rank.
-
+5. Rank progress bar.
 
 # Optional Request Parameters
 
-* [title](#filter-by-titles)
-* [rank](#filter-by-ranks)
-* [column](#specify-the-maximum-row--column-size)
-* [row](#specify-the-maximum-row--column-size)
-* [theme](#apply-theme)
-* [margin-w](#margin-width)
-* [margin-h](#margin-height)
-* [no-bg](#transparent-background)
-* [no-frame](#hide-frames)
-
+- [title](#filter-by-titles)
+- [rank](#filter-by-ranks)
+- [column](#specify-the-maximum-row--column-size)
+- [row](#specify-the-maximum-row--column-size)
+- [theme](#apply-theme)
+- [margin-w](#margin-width)
+- [margin-h](#margin-height)
+- [no-bg](#transparent-background)
+- [no-frame](#hide-frames)
 
 ## Filter by titles
 
-You can filter the display by specifying the titles of trophy.  
+You can filter the display by specifying the titles of trophy.
 
 ```
 https://github-profile-trophy.vercel.app/?username=ryo-ma&title=Followers
@@ -122,14 +115,25 @@ If you want to specify multiple titles.
 https://github-profile-trophy.vercel.app/?username=ryo-ma&title=Stars,Followers
 ```
 
+<p align="center">
+  <img width="220" src="https://github.com/user-attachments/assets/3b8a1c8b-afcd-49dc-ab18-a439d5c36a83">
+</p>
+
+You can also exclude the trophies you don't want to display.
+
+```
+https://github-profile-trophy.vercel.app/?username=ryo-ma&title=-Stars,-Followers
+```
+
 ## Filter by ranks
 
-You can filter the display by specifying the ranks.  
+You can filter the display by specifying the ranks.\
 `Available values: SECRET SSS SS S AAA AA A B C`
 
 ```
 https://github-profile-trophy.vercel.app/?username=ryo-ma&rank=S
 ```
+
 <p align="center">
   <img width="110" src="https://user-images.githubusercontent.com/6661165/91642657-1cdd8780-ea68-11ea-994b-4568a55cd22a.png" />
 </p>
@@ -140,32 +144,41 @@ If you want to specify multiple ranks.
 https://github-profile-trophy.vercel.app/?username=ryo-ma&rank=S,AAA
 ```
 
+<p align="center">
+  <img width="220" src="https://github.com/user-attachments/assets/0c2ffca8-4b03-4d46-b1d7-4e1eb6702f68">
+</p>
+
 You can also exclude ranks.
 
 ```
 https://github-profile-trophy.vercel.app/?username=ryo-ma&rank=-C,-B
 ```
 
+**NOTE: Since `UNKNOWN` is denoted by `?`, in order to include or exclude it you
+will have to use `rank=?` and `rank=-?` respectively**
 
 ## Specify the maximum row & column size
 
-You can specify the maximum row and column size.  
+You can specify the maximum row and column size.\
 Trophy will be hidden if it exceeds the range of both row and column.
 
-`Available value: number type`  
+`Available value: number type`\
 `Default: column=6 row=3`
 
 Restrict only row
+
 ```
 https://github-profile-trophy.vercel.app/?username=ryo-ma&row=2
 ```
 
 Restrict only column
+
 ```
 https://github-profile-trophy.vercel.app/?username=ryo-ma&column=2
 ```
 
 Restrict row & column
+
 ```
 https://github-profile-trophy.vercel.app/?username=ryo-ma&row=2&column=3
 ```
@@ -175,47 +188,50 @@ https://github-profile-trophy.vercel.app/?username=ryo-ma&row=2&column=3
 </p>
 
 Adaptive column
+
 ```
 https://github-profile-trophy.vercel.app/?username=ryo-ma&column=-1
 ```
 
-You can set `columns` to `-1` to adapt the width to the number of trophies, the parameter `row` will be ignored.
+You can set `column` to `-1` to adapt the width to the number of trophies, the
+parameter `row` will be ignored.
 
 ## Apply theme
 
 Available themes.
 
-|  theme  |
-| ---- |
-| [flat](#flat) |
-| [onedark](#onedark) |
-| [gruvbox](#gruvbox) |
-| [dracula](#dracula) |
-| [monokai](#monokai) |
-| [chalk](#chalk) |
-| [nord](#nord) |
-| [alduin](#alduin) |
-| [darkhub](#darkhub) |
-| [juicyfresh](#juicyfresh) |
-| [buddhism](#buddhism) |
-| [oldie](#oldie) |
-| [radical](#radical) |
-| [onestar](#onestar) |
-| [discord](#discord) |
-| [algolia](#algolia) |
-| [gitdimmed](#gitdimmed) |
-| [tokyonight](#tokyonight) |
-| [matrix](#matrix) |
-| [apprentice](#apprentice) |
+| theme                       |
+| --------------------------- |
+| [flat](#flat)               |
+| [onedark](#onedark)         |
+| [gruvbox](#gruvbox)         |
+| [dracula](#dracula)         |
+| [monokai](#monokai)         |
+| [chalk](#chalk)             |
+| [nord](#nord)               |
+| [alduin](#alduin)           |
+| [darkhub](#darkhub)         |
+| [juicyfresh](#juicyfresh)   |
+| [buddhism](#buddhism)       |
+| [oldie](#oldie)             |
+| [radical](#radical)         |
+| [onestar](#onestar)         |
+| [discord](#discord)         |
+| [algolia](#algolia)         |
+| [gitdimmed](#gitdimmed)     |
+| [tokyonight](#tokyonight)   |
+| [matrix](#matrix)           |
+| [apprentice](#apprentice)   |
 | [dark_dimmed](#dark_dimmed) |
-| [dark_lover](#dark_lover) |
-
+| [dark_lover](#dark_lover)   |
+| [kimbie_dark](#kimbie_dark) |
 
 ### flat
 
 ```
 https://github-profile-trophy.vercel.app/?username=ryo-ma&theme=flat
 ```
+
 <p align="center">
   <img width="660" src="https://user-images.githubusercontent.com/6661165/92325601-039b9300-f087-11ea-983a-fce8133549ee.png">
 </p>
@@ -279,7 +295,6 @@ https://github-profile-trophy.vercel.app/?username=ryo-ma&theme=nord
 <p align="center">
   <img width="660" src="https://user-images.githubusercontent.com/6661165/94346857-7ab2be80-006a-11eb-9082-36d377ae2531.png">
 </p>
-
 
 ### alduin
 
@@ -388,7 +403,7 @@ https://github-profile-trophy.vercel.app/?username=ryo-ma&theme=tokyonight
 ```
 
 <p align="center">
-  <img width="660" src="https://user-images.githubusercontent.com/6661165/135482087-27764d6f-53b4-4c2a-8473-32431d12660c.png">  
+  <img width="660" src="https://user-images.githubusercontent.com/6661165/135482087-27764d6f-53b4-4c2a-8473-32431d12660c.png">
 </p>
 
 ### matrix
@@ -398,7 +413,7 @@ https://github-profile-trophy.vercel.app/?username=ryo-ma&theme=matrix
 ```
 
 <p align="center">
-  <img width="660" src="https://user-images.githubusercontent.com/31789752/141647414-15cfe279-af12-4746-a886-f494c25c096d.png">  
+  <img width="660" src="https://user-images.githubusercontent.com/31789752/141647414-15cfe279-af12-4746-a886-f494c25c096d.png">
 </p>
 
 ### apprentice
@@ -408,7 +423,7 @@ https://github-profile-trophy.vercel.app/?username=ryo-ma&theme=apprentice
 ```
 
 <p align="center">
-  <img width="660" src="https://user-images.githubusercontent.com/31789752/144701036-285cdd4b-d687-4ddc-95c2-7ccae9e25a1f.png">  
+  <img width="660" src="https://user-images.githubusercontent.com/31789752/144701036-285cdd4b-d687-4ddc-95c2-7ccae9e25a1f.png">
 </p>
 
 ### dark_dimmed
@@ -418,7 +433,7 @@ https://github-profile-trophy.vercel.app/?username=ryo-ma&theme=dark_dimmed
 ```
 
 <p align="center">
-  <img width="660" src="https://user-images.githubusercontent.com/31789752/147340893-655b9fa5-138f-4f29-91ec-2a17c93822d1.png">  
+  <img width="660" src="https://user-images.githubusercontent.com/31789752/147340893-655b9fa5-138f-4f29-91ec-2a17c93822d1.png">
 </p>
 
 ### dark_lover
@@ -428,13 +443,23 @@ https://github-profile-trophy.vercel.app/?username=ryo-ma&theme=dark_lover
 ```
 
 <p align="center">
-  <img width="660" src="https://user-images.githubusercontent.com/31789752/152659041-de5b23cb-1be8-4e6b-b07b-726127ab8c3a.png">  
+  <img width="660" src="https://user-images.githubusercontent.com/31789752/152659041-de5b23cb-1be8-4e6b-b07b-726127ab8c3a.png">
+</p>
+
+### kimbie_dark
+
+```
+https://github-profile-trophy.vercel.app/?username=ryo-ma&theme=kimbie_dark
+```
+
+<p align="center">
+  <img width="660" src="https://user-images.githubusercontent.com/8161064/288417332-408705a4-ae9c-47fe-af1a-9fb08555f526.png">
 </p>
 
 ## Margin Width
 
-You can put a margin in the width between trophies.  
-`Available value: number type`  
+You can put a margin in the width between trophies.\
+`Available value: number type`\
 `Default: margin-w=0`
 
 ```
@@ -447,13 +472,17 @@ https://github-profile-trophy.vercel.app/?username=ryo-ma&margin-w=15
 
 ## Margin Height
 
-You can put a margin in the height between trophies.  
-`Available value: number type`  
+You can put a margin in the height between trophies.\
+`Available value: number type`\
 `Default: margin-h=0`
 
 ```
 https://github-profile-trophy.vercel.app/?username=ryo-ma&margin-h=15
 ```
+
+<p align="center">
+  <img width="110" height="330" src="https://github.com/user-attachments/assets/233dee5b-4491-46cc-884a-39d0aa928752">
+</p>
 
 ## Example layout
 
@@ -467,8 +496,8 @@ https://github-profile-trophy.vercel.app/?username=ryo-ma&column=3&margin-w=15&m
 
 ## Transparent background
 
-You can turn the background transparent.  
-`Available value: boolean type (true or false)`  
+You can turn the background transparent.\
+`Available value: boolean type (true or false)`\
 `Default: no-bg=false`
 
 ```
@@ -476,15 +505,13 @@ https://github-profile-trophy.vercel.app/?username=ryo-ma&no-bg=true
 ```
 
 <p align="center">
-  <img width=660 src="https://user-images.githubusercontent.com/6661165/104810864-ed72c000-583a-11eb-863b-04acffb705ea.png">
+  <img width="969" src="https://github.com/user-attachments/assets/32d3b63b-7845-42cb-b71c-31abaa673bcb">
 </p>
-
-
 
 ## Hide frames
 
-You can hide the frames around the trophies.  
-`Available value: boolean type (true or false)`  
+You can hide the frames around the trophies.\
+`Available value: boolean type (true or false)`\
 `Default: no-frame=false`
 
 ```
@@ -492,9 +519,14 @@ https://github-profile-trophy.vercel.app/?username=ryo-ma&no-frame=true
 ```
 
 <p align="center">
-  <img width=660 src="https://user-images.githubusercontent.com/6661165/104810887-1d21c800-583b-11eb-8f0d-785c1640dc5d.png">
+  <img width="936" src="https://github.com/user-attachments/assets/54de15a3-d907-4a50-8117-170aae74d1cd">
 </p>
 
-
 # Contribution Guide
+
 Check [CONTRIBUTING.md](./CONTRIBUTING.md) for more details.
+
+# License
+
+This product is licensed under the
+[MIT License](https://github.com/ryo-ma/github-profile-trophy/blob/master/LICENSE).
